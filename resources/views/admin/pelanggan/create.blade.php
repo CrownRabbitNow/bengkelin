@@ -9,7 +9,7 @@
                     <form action="{{ url('/store-pelanggan') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-                            <label for="NAMA">ID Pelanggan</label>
+                            <label for="NAMA">ID Pelanggaan</label>
                             <input type="text" name="id" class="form-control"placeholder="001">
                         </div>
                         <div class="form-group">
